@@ -16,5 +16,14 @@ namespace Lab2ATM.tests
 
             Assert.Equal(expected, result);
         }
+        [Fact]
+        public void Add0Test()
+        {
+            double input = 0;
+            double intialAmount = Globals.BalanceAmount;
+            double result = ATM.AddDeposit(input);
+
+            Assert.Equal(intialAmount, result);
+        }
     }
 }
