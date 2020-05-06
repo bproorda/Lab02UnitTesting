@@ -23,5 +23,17 @@ namespace Lab2ATM
             Globals.BalanceAmount += deposit;
             return Globals.BalanceAmount;
         }
+        public static double Withdraw(double withdrawal)
+        {
+            if(Globals.BalanceAmount - withdrawal <= 20)
+            {
+                return Globals.BalanceAmount;
+            } else
+            {
+                Globals.BalanceAmount -= withdrawal;
+                return Globals.BalanceAmount;
+            }
+
+        }
     }
 }
