@@ -1,0 +1,13 @@
+C:\Users\bproo\Documents\coding\code401\Lab02UnitTesting\Lab2ATM\obj\Debug\netcoreapp3.1\Lab2ATM.csprojAssemblyReference.cache
+C:\Users\bproo\Documents\coding\code401\Lab02UnitTesting\Lab2ATM\obj\Debug\netcoreapp3.1\Lab2ATM.csproj.CoreCompileInputs.cache
+C:\Users\bproo\Documents\coding\code401\Lab02UnitTesting\Lab2ATM\obj\Debug\netcoreapp3.1\Lab2ATM.AssemblyInfoInputs.cache
+C:\Users\bproo\Documents\coding\code401\Lab02UnitTesting\Lab2ATM\obj\Debug\netcoreapp3.1\Lab2ATM.AssemblyInfo.cs
+C:\Users\bproo\Documents\coding\code401\Lab02UnitTesting\Lab2ATM\bin\Debug\netcoreapp3.1\Lab2ATM.exe
+C:\Users\bproo\Documents\coding\code401\Lab02UnitTesting\Lab2ATM\bin\Debug\netcoreapp3.1\Lab2ATM.deps.json
+C:\Users\bproo\Documents\coding\code401\Lab02UnitTesting\Lab2ATM\bin\Debug\netcoreapp3.1\Lab2ATM.runtimeconfig.json
+C:\Users\bproo\Documents\coding\code401\Lab02UnitTesting\Lab2ATM\bin\Debug\netcoreapp3.1\Lab2ATM.runtimeconfig.dev.json
+C:\Users\bproo\Documents\coding\code401\Lab02UnitTesting\Lab2ATM\bin\Debug\netcoreapp3.1\Lab2ATM.dll
+C:\Users\bproo\Documents\coding\code401\Lab02UnitTesting\Lab2ATM\bin\Debug\netcoreapp3.1\Lab2ATM.pdb
+C:\Users\bproo\Documents\coding\code401\Lab02UnitTesting\Lab2ATM\obj\Debug\netcoreapp3.1\Lab2ATM.dll
+C:\Users\bproo\Documents\coding\code401\Lab02UnitTesting\Lab2ATM\obj\Debug\netcoreapp3.1\Lab2ATM.pdb
+C:\Users\bproo\Documents\coding\code401\Lab02UnitTesting\Lab2ATM\obj\Debug\netcoreapp3.1\Lab2ATM.genruntimeconfig.cache
