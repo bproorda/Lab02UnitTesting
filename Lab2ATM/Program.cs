@@ -4,19 +4,24 @@ namespace Lab2ATM
 {
       public class Globals
     {
-        public static decimal BalanceAmount = 0;
+        public static double BalanceAmount = 0;
     }
-    class Program
+   public class ATM
     {  
         static void Main(string[] args)
         {
             Console.WriteLine(GetBalance());
             Console.ReadLine();
         }
-        public static string GetBalance()
+        public static double GetBalance()
         {
-            string message = String.Format("Your current balance = {0:C2}", Globals.BalanceAmount);
-            return message;
+            
+            return Globals.BalanceAmount;
+        }
+        public static double AddDeposit(double deposit)
+        {
+            Globals.BalanceAmount += deposit;
+            return Globals.BalanceAmount;
         }
     }
 }

@@ -6,6 +6,9 @@ MinimumVisualStudioVersion = 15.0.26124.0
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lab2ATM", "Lab2ATM\Lab2ATM.csproj", "{C4CCC4F7-9615-49ED-AC9D-67863FF3E062}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab2ATM.tests", "Lab2ATM.tests\Lab2ATM.tests.csproj", "{1CDD12EA-68FA-410B-8E3F-DD785EFE9A83}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C4CCC4F7-9615-49ED-AC9D-67863FF3E062} = {C4CCC4F7-9615-49ED-AC9D-67863FF3E062}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
