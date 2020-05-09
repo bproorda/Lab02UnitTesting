@@ -22,12 +22,15 @@ namespace Lab2ATM
             while(fuse)
             {
                 Console.WriteLine("Welcome to Your DeltaV ATM! \n Please Select from an Option From Below \n 1. Get Balance \n 2. Withdraw Money \n 3. Add Money \n 4. Exit ");
-                Console.Write("Enter an number for the desired option: ");
+                Console.Write("Enter a number for the desired option: ");
                 string optionChosen = Console.ReadLine();
                 switch (optionChosen)
                 {
+                    case "1":
+                        Console.WriteLine(String.Format("Your current balance is: {0:C2}", GetBalance()));
+                        break;
                     case "4":
-                        Console.WriteLine("Thank you for using DeltaV ATM. This machine will self-destruct in");
+                        Console.WriteLine("Thank you for using DeltaV ATM. This machine will self-destruct in:");
                         Console.WriteLine("3..");
                         Console.WriteLine("2..");
                         Console.WriteLine("1..");
