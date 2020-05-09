@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\bproo\\Documents\\coding\\code401\\Lab02UnitTesting\\Lab2ATM\\Lab2ATM.csproj",
+      "projectUniqueName": "C:\\Users\\bproo\\Documents\\coding\\Lab02UnitTesting\\Lab2ATM\\Lab2ATM.csproj",
       "projectName": "Lab2ATM",
-      "projectPath": "C:\\Users\\bproo\\Documents\\coding\\code401\\Lab02UnitTesting\\Lab2ATM\\Lab2ATM.csproj",
+      "projectPath": "C:\\Users\\bproo\\Documents\\coding\\Lab02UnitTesting\\Lab2ATM\\Lab2ATM.csproj",
       "packagesPath": "C:\\Users\\bproo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\bproo\\Documents\\coding\\code401\\Lab02UnitTesting\\Lab2ATM\\obj\\",
+      "outputPath": "C:\\Users\\bproo\\Documents\\coding\\Lab02UnitTesting\\Lab2ATM\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\bproo\\AppData\\Roaming\\NuGet\\NuGet.Config",

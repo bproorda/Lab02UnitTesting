@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\bproo\\Documents\\coding\\code401\\Lab02UnitTesting\\Lab2ATM.tests\\Lab2ATM.tests.csproj": {}
+    "C:\\Users\\bproo\\Documents\\coding\\Lab02UnitTesting\\Lab2ATM.tests\\Lab2ATM.tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\bproo\\Documents\\coding\\code401\\Lab02UnitTesting\\Lab2ATM.tests\\Lab2ATM.tests.csproj": {
+    "C:\\Users\\bproo\\Documents\\coding\\Lab02UnitTesting\\Lab2ATM.tests\\Lab2ATM.tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bproo\\Documents\\coding\\code401\\Lab02UnitTesting\\Lab2ATM.tests\\Lab2ATM.tests.csproj",
+        "projectUniqueName": "C:\\Users\\bproo\\Documents\\coding\\Lab02UnitTesting\\Lab2ATM.tests\\Lab2ATM.tests.csproj",
         "projectName": "Lab2ATM.tests",
-        "projectPath": "C:\\Users\\bproo\\Documents\\coding\\code401\\Lab02UnitTesting\\Lab2ATM.tests\\Lab2ATM.tests.csproj",
+        "projectPath": "C:\\Users\\bproo\\Documents\\coding\\Lab02UnitTesting\\Lab2ATM.tests\\Lab2ATM.tests.csproj",
         "packagesPath": "C:\\Users\\bproo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bproo\\Documents\\coding\\code401\\Lab02UnitTesting\\Lab2ATM.tests\\obj\\",
+        "outputPath": "C:\\Users\\bproo\\Documents\\coding\\Lab02UnitTesting\\Lab2ATM.tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\bproo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -27,8 +27,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\bproo\\Documents\\coding\\code401\\Lab02UnitTesting\\Lab2ATM\\Lab2ATM.csproj": {
-                "projectPath": "C:\\Users\\bproo\\Documents\\coding\\code401\\Lab02UnitTesting\\Lab2ATM\\Lab2ATM.csproj"
+              "C:\\Users\\bproo\\Documents\\coding\\Lab02UnitTesting\\Lab2ATM\\Lab2ATM.csproj": {
+                "projectPath": "C:\\Users\\bproo\\Documents\\coding\\Lab02UnitTesting\\Lab2ATM\\Lab2ATM.csproj"
               }
             }
           }
@@ -78,14 +78,14 @@
         }
       }
     },
-    "C:\\Users\\bproo\\Documents\\coding\\code401\\Lab02UnitTesting\\Lab2ATM\\Lab2ATM.csproj": {
+    "C:\\Users\\bproo\\Documents\\coding\\Lab02UnitTesting\\Lab2ATM\\Lab2ATM.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bproo\\Documents\\coding\\code401\\Lab02UnitTesting\\Lab2ATM\\Lab2ATM.csproj",
+        "projectUniqueName": "C:\\Users\\bproo\\Documents\\coding\\Lab02UnitTesting\\Lab2ATM\\Lab2ATM.csproj",
         "projectName": "Lab2ATM",
-        "projectPath": "C:\\Users\\bproo\\Documents\\coding\\code401\\Lab02UnitTesting\\Lab2ATM\\Lab2ATM.csproj",
+        "projectPath": "C:\\Users\\bproo\\Documents\\coding\\Lab02UnitTesting\\Lab2ATM\\Lab2ATM.csproj",
         "packagesPath": "C:\\Users\\bproo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bproo\\Documents\\coding\\code401\\Lab02UnitTesting\\Lab2ATM\\obj\\",
+        "outputPath": "C:\\Users\\bproo\\Documents\\coding\\Lab02UnitTesting\\Lab2ATM\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\bproo\\AppData\\Roaming\\NuGet\\NuGet.Config",
