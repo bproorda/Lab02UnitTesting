@@ -18,6 +18,8 @@ namespace Lab2ATM
 
         public static void ShowMenu()
         {
+            string receipt = "";
+            int transactionCounter = 0;
             bool fuse = true;
             while(fuse)
             {
@@ -41,6 +43,8 @@ namespace Lab2ATM
                         {
                             Console.WriteLine(String.Format("Your new balance is: {0:C2}", newBalance));
                             Console.WriteLine();
+                            transactionCounter++;
+                            receipt += String.Format("Transaction {0}. You withdrew {1:C2}. Resulting Balance: {2:C2} \n", transactionCounter, withdrawThisAmount, newBalance);
                         } else
                         {
                             Console.WriteLine("We apologize, but your transcation was not processed. \n Your account may not fall below $20.00");
@@ -51,9 +55,11 @@ namespace Lab2ATM
                     case "3":
                         Console.Write("Please enter how much you would like to add: ");
                         double addThisMuch = Convert.ToDouble(Console.ReadLine());
-                        Console.WriteLine(String.Format("Your new balance is: {0:C2}", AddDeposit(addThisMuch)));
+                        double newBalance2 = AddDeposit(addThisMuch);
+                        Console.WriteLine(String.Format("Your new balance is: {0:C2}", newBalance2));
                         Console.WriteLine();
-                        Console.WriteLine();
+                        transactionCounter++;
+                        receipt += String.Format("Transaction {0}. You added {1:C2}. Resulting Balance: {2:C2} \n", transactionCounter, addThisMuch, newBalance2);
                         break;
                     case "4":
                         Console.WriteLine("Thank you for using DeltaV ATM. This machine will self-destruct in:");
@@ -62,10 +68,17 @@ namespace Lab2ATM
                         Console.WriteLine("1..");
                         Console.WriteLine("Have a nice day");
                         Console.WriteLine();
+                        if(receipt != "")
+                        {
+                            Console.WriteLine("Here is receipt of your transaction");
+                            Console.WriteLine(receipt);
+                            Console.WriteLine();
+                        }
                         fuse = false;
                         break;
                     default:
-                        Console.WriteLine("Why?");
+                        Console.WriteLine("Why did you enter an invalid number?");
+                        Console.WriteLine();
                         break;
                 }
             }
