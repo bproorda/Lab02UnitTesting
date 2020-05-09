@@ -65,18 +65,19 @@ namespace Lab2ATM
                             receipt += String.Format("Transaction {0}. You added {1:C2}. Resulting Balance: {2:C2} \n", transactionCounter, addThisMuch, newBalance2);
                             break;
                         case "4":
-                            Console.WriteLine("Thank you for using DeltaV ATM. This machine will self-destruct in:");
-                            Console.WriteLine("3..");
-                            Console.WriteLine("2..");
-                            Console.WriteLine("1..");
-                            Console.WriteLine("Have a nice day");
-                            Console.WriteLine();
                             if (receipt != "")
                             {
                                 Console.WriteLine("Here is receipt of your transaction(s)");
                                 Console.WriteLine(receipt);
                                 Console.WriteLine();
                             }
+                            Console.WriteLine("Thank you for using DeltaV ATM. This machine will self-destruct in:");
+                            Console.WriteLine("3..");
+                            Console.WriteLine("2..");
+                            Console.WriteLine("1..");
+                            Console.WriteLine("Have a nice day");
+                            Console.WriteLine();
+                           
                             fuse = false;
                             break;
                         default:
@@ -105,7 +106,9 @@ namespace Lab2ATM
             }
             catch (ArgumentException)
             {
+                //this needs a returning value to run, what do I use?
                 Console.WriteLine("Invalid input please enter a number");
+                throw;
                 
             }
         }
@@ -126,6 +129,8 @@ namespace Lab2ATM
             catch (ArgumentException)
             {
                 Console.WriteLine("Invalid input please enter a number");
+                throw;
+
                
             }
 
