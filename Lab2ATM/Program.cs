@@ -29,6 +29,20 @@ namespace Lab2ATM
                     case "1":
                         Console.WriteLine(String.Format("Your current balance is: {0:C2}", GetBalance()));
                         break;
+                    case "2":
+                        Console.Write("Enter how much you would like to withdraw: ");
+                        double originalBalance = GetBalance();
+                        double withdrawThisAmount = Convert.ToDouble(Console.ReadLine());
+                        double newBalance = Withdraw(withdrawThisAmount);
+                        if(originalBalance != newBalance)
+                        {
+                            Console.WriteLine(String.Format("Your current balance is: {0:C2}", newBalance));
+                        } else
+                        {
+                            Console.WriteLine("We apologize, but our transcation was not processed. \n Your account may not fall below $20.00");
+                            Console.WriteLine(String.Format("Your current balance is: {0:C2}", GetBalance()));
+                        }
+                        break;
                     case "4":
                         Console.WriteLine("Thank you for using DeltaV ATM. This machine will self-destruct in:");
                         Console.WriteLine("3..");
